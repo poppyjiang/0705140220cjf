@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	}
+.content{
+	width:1000px;
+	background:#D4D4D4;
+	margin:0 auto;
+	}
+.header{
+	width:100%;
+	height:100px;
+	background:#D4D4D4;
+	}
+.header img{
+	float:left;
+	}
+.quickLinks{
+	width:30%;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	}
+.quickLinks a{
+	display:inline-block;
+	width:60px;
+	height:36px;
+	border:1px #1176DB solid;
+	color:#3E70C1;
+	text-decoration:none;
+	font-size:12px;
+	line-height:36px;
+	}
+.quickLinks a:hover{
+	box-shadow:#D1F7FE 0 0 10px ;
+	}
